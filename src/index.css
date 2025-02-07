@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    font-family: "Inter", serif;
+    line-height: 1.5;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/* ... */
+
+
+/* body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+@media (prefers-color-scheme: light) {
+     :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+@layer base {
+     :root {
+        --background: 0 0% 100%;
+        --foreground: 317 38% 27%;
+        /* Adjusted to complement #823C72 */
+        --card: 0 0% 100%;
+        --card-foreground: 317 38% 27%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 317 38% 27%;
+        --primary: 317 38% 45%;
+        /* Base color in HSL (#823C72) */
+        --primary-foreground: 0 0% 98%;
+        --secondary: 317 28% 90%;
+        /* A lighter shade of #823C72 */
+        --secondary-foreground: 317 38% 45%;
+        --muted: 317 28% 90%;
+        --muted-foreground: 317 28% 45%;
+        --accent: 317 28% 90%;
+        --accent-foreground: 317 38% 45%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 317 38% 85%;
+        --input: 317 38% 85%;
+        --ring: 317 38% 45%;
+        --chart-1: 317 38% 45%;
+        --chart-2: 317 28% 55%;
+        --chart-3: 317 48% 65%;
+        --chart-4: 317 38% 35%;
+        --chart-5: 317 58% 25%;
+        --radius: 0.5rem;
+    }
+    .dark {
+        --background: 317 38% 15%;
+        /* Darker shade of #823C72 */
+        --foreground: 0 0% 98%;
+        --card: 317 38% 15%;
+        --card-foreground: 0 0% 98%;
+        --popover: 317 38% 15%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 317 38% 45%;
+        /* Base color in HSL (#823C72) */
+        --primary-foreground: 0 0% 98%;
+        --secondary: 317 28% 25%;
+        /* A darker muted shade */
+        --secondary-foreground: 0 0% 98%;
+        --muted: 317 28% 25%;
+        --muted-foreground: 317 28% 65%;
+        --accent: 317 28% 25%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 317 28% 25%;
+        --input: 317 28% 25%;
+        --ring: 317 38% 45%;
+        --chart-1: 317 38% 35%;
+        --chart-2: 317 28% 45%;
+        --chart-3: 317 48% 55%;
+        --chart-4: 317 58% 65%;
+        --chart-5: 317 28% 75%;
+    }
+}
+
+@layer base {
+    * {
+        @apply box-border list-none p-0 m-0 border-border;
+    }
+    body {
+        @apply min-h-screen bg-[#FFFFFF] text-[#484848];
+    }
+}

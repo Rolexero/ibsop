@@ -1,0 +1,399 @@
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.ant-otp .ant-otp-input {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-inline: 4px;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    color: #823c72;
+    border: 1px solid #989a9c;
+}
+
+@media (max-width: 425px) {
+    .sider {
+        position: absolute !important;
+        height: 100vh;
+        z-index: 999;
+    }
+}
+
+.custom-alert .ant-alert-icon {
+    color: #faad14 !important;
+    /* Custom icon color */
+}
+
+
+/* ant design default style */
+
+.ant-menu-item-active {
+    background: #8b6e84 !important;
+    color: #fff !important;
+}
+
+.menu-item-active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    /* Border width */
+    background-color: blue;
+    /* Border color */
+    border-radius: 5px 0 0 5px;
+    /* Smooth edges */
+    margin-left: -10px;
+    /* Creates spacing between border and link */
+}
+
+.ant-menu-item-selected {
+    background: #8b6e84 !important;
+    border-radius: 5px !important;
+    border-left: 4px solid #f6967b !important;
+    color: #fff !important;
+    /* box-shadow: -2px 0 0 #f6967b; */
+}
+
+.ant-menu-item-active:hover {
+    background: #8b6e84 !important;
+    color: #fff !important;
+}
+
+.ant-form-item {
+    margin-bottom: 8px;
+}
+
+.ant-col.ant-form-item-label {
+    padding: 0 !important;
+}
+
+
+/* Add border to the table */
+
+.ant-table {
+    border: 1px solid #e6e7e7 !important;
+    border-radius: 12px !important;
+    /* Fixed hex and added !important */
+    /* Ensure the table is rounded */
+}
+
+.ant-table-container {
+    border: 4px solid ##fbfbfb;
+}
+
+.ant-table-container .ant-table-thead .ant-table-cell {
+    background-color: ##fbfbfb;
+}
+
+.ant-input[disabled] {
+    color: black;
+}
+
+:where(.css-dev-only-do-not-override-1hbko).ant-input-lg {
+    padding: 7px 11px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 8px;
+}
+
+.modalStyle .ant-modal-header {
+    border-bottom: 1px solid #d6d7d7;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+}
+
+.ant-form-item .ant-form-item-label>label {
+    color: #1f0e1c;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ant-table-container {
+  border: 1px solid #eae6e9;
+}
+
+.ant-table-container .ant-table-thead .ant-table-cell {
+  background-color: #f4f1f3;
+  border: none;
+} */
+
+.ant-descriptions.ant-descriptions-bordered>.ant-descriptions-view .ant-descriptions-row>.ant-descriptions-item-label {
+    border: 1px solid #eae6e9;
+    background-color: #f4f1f3;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.ant-badge-status-dot {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.ant-menu-submenu-title {
+    color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-61ugam).ant-menu-light .ant-menu-item,
+:where(.css-dev-only-do-not-override-61ugam).ant-menu-light>.ant-menu .ant-menu-item,
+:where(.css-dev-only-do-not-override-61ugam).ant-menu-light .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-61ugam).ant-menu-light>.ant-menu .ant-menu-submenu-title {
+    color: white !important;
+}
+
+:where(.css-61ugam).ant-menu-light .ant-menu-submenu-title {
+    color: white !important;
+}
+
+.float_left1 {
+    float: left;
+    outline: none;
+}
+
+.boxlabel1 {
+    color: #333333;
+    font-family: Arial Black;
+    font-size: 11px;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #333333;
+    border-left-color: #333333;
+    border-top-color: #333333;
+    border-bottom-color: #333333;
+    text-align: center;
+    width: 170px;
+    height: 18px;
+    background-color: white;
+    padding-top: 3px;
+}
+
+.boxlabel2 {
+    color: #333333;
+    font-family: Arial Black;
+    font-size: 11px;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #333333;
+    border-left-color: #333333;
+    border-top-color: #333333;
+    border-bottom-color: #333333;
+    text-align: center;
+    width: 85px;
+    height: 18px;
+    background-color: white;
+    padding-top: 3px;
+}
+
+.boxlabel3 {
+    color: #333333;
+    font-family: Arial Black;
+    font-size: 11px;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #333333;
+    border-left-color: #333333;
+    border-top-color: #333333;
+    border-bottom-color: #333333;
+    text-align: center;
+    width: 100px;
+    height: 18px;
+    background-color: white;
+    padding-top: 3px;
+}
+
+.hiddencol {
+    display: none;
+}
+
+.labeldisplay1 {
+    padding-top: 6px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 12px;
+    font-style: normal;
+}
+
+.upperlabeldisplay1 {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+.fieldtxt1 {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Arial";
+    outline: none;
+}
+
+.labelpadding1 {
+    padding-left: 55px;
+}
+
+.awbtxtalign1 {
+    width: 100%;
+    font-size: 13px;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+}
+
+div.break {
+    page-break-before: always;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+@media print {
+    .print-tag {
+        background-color: black;
+        /* Your desired background color */
+        color: white;
+        /* Ensure text is readable */
+    }
+    /* Additional styles for better print layout */
+    .no-print {
+        display: none;
+        /* Hide elements you don't want to print */
+    }
+}
+
+@media print {
+    .waybill-container {
+        width: 100mm;
+        height: 150mm;
+        page-break-inside: avoid;
+        /* Prevent content from splitting across pages */
+    }
+}
+
+.sigCanvas {
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+
+/* Active tab: Background color, border-radius, padding */
+
+.ant-tabs-tab-active {
+    background-color: #fff8fd !important;
+    border-radius: 8px !important;
+    color: "white" !important;
+    font-size: 14px !important;
+    /* Adjust padding as needed */
+}
+
+.ant-tabs-ink-bar {
+    display: none !important;
+}
+
+
+/* Remove default bottom border on active tab */
+
+.ant-tabs-nav::before {
+    border-bottom: none !important;
+}
+
+
+/* Ensure the main tab container has auto width depending on tab items */
+
+.ant-tabs-top>.ant-tabs-nav {
+    border-radius: 8px !important;
+    border: 1px solid #e6e7e7 !important;
+    width: auto !important;
+    /* Auto width based on tab items */
+    display: inline-flex !important;
+    /* Ensure width is based on content */
+}
+
+
+/* Ensure tab items are properly spaced */
+
+.ant-tabs-tab {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 115px !important;
+    height: 43px !important;
+    padding: 16px !important;
+    /* Adjust tab item padding */
+}
+
+:where(.css-dev-only-do-not-override-106qnlr).ant-tabs-top,
+:where(.css-dev-only-do-not-override-106qnlr).ant-tabs-bottom {
+    flex-direction: row !important;
+    border: none !important;
+}
+
+
+/* global.css or custom CSS */

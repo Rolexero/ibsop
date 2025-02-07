@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "username": "sdkkd",
+      "user_type": "admin",
+      "name": "dndnd",
+      "email": "dnd@gmail.com",
+      "phone": 109293,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "username": "dndndn",
+      "user_type": "user",
+      "name": "kdkd",
+      "email": "ddnd@gmmail.com",
+      "phone": 992
+    }
+  ]
+}
