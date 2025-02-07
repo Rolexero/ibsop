@@ -1,5 +1,5 @@
 import BaseModal, { BaseModalHeader } from "@/components/BaseModal";
-import { Button, Form, Input, InputNumber, Select } from "antd";
+import { Button, Form, Input, InputNumber } from "antd";
 import FormItem from "antd/es/form/FormItem";
 import { Cancel01Icon } from "hugeicons-react";
 import tw, { styled } from "twin.macro";
@@ -157,7 +157,7 @@ const UserModal = ({
           </FormItem>
         </FormFieldWrapper>
 
-        <FormItem
+        {/* <FormItem
           className="w-full"
           label={<p>User type</p>}
           help={touched.user_type && errors.user_type ? errors.user_type : ""}
@@ -175,7 +175,7 @@ const UserModal = ({
               { value: "user", label: "User" },
             ]}
           />
-        </FormItem>
+        </FormItem> */}
 
         <ActionButtonWrapper className="flex flex-col md:flex-row">
           <Button onClick={closeModal}>Cancel</Button>

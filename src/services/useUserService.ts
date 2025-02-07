@@ -3,7 +3,7 @@ import { IUserForm } from "@/views/root/dashboard/utils";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 
-const API_URL = " https://ibsop-63yb9lyip-rolexeros-projects.vercel.app/users";
+const API_URL = "https://jsonplaceholder.typicode.com/users";
 
 export const useGetUsers = () => {
   return useQuery({
