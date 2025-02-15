@@ -12,7 +12,7 @@ export const useGetUsers = () => {
       const { data } = await axios.get(`${API_URL}`);
       return data;
     },
-    enabled: true, // Always allow refetching
+    enabled: true,
   });
 };
 
